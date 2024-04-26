@@ -1,18 +1,25 @@
-## Getting Started
+# Java Básico
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Atatomia de classes - 1
 
-## Folder Structure
+- Toda classe precisa estar dentro do `src`
+- Nome de classe começa com letra maiúscula
+- A classe que executará o projeto precisa ter o método `public static void main(String[] args)`
 
-The workspace contains two folders by default, where:
+- `System.out.println("conteúdo aqui")` comando para mostrar um conteúdo no terminal
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Atatomia de classes - 2
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### Nome de variáveis
+  -  começam com letra minusculas;
+  - não iniciam com numeros;
+  - não contem espaços;
+  - não podem ser palavras reservadas (do, for, int, double, if);
+  - uma variável não pode se repetir dentro do escopo;
+  - variaveis todas em maiusculas indicam que se valor não será alterado. Utilizamos `final` para que esse valor não mude. 
+    - ex: `final String BR = "Brasil";`
+    - ex: `final double PI = 3.14;` 
+  - Unicos caracteres especiais permitidos são `$, _`
+    - `int numero_um = 1;`
+    - `int numero$um = 1;`
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
