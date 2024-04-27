@@ -148,6 +148,7 @@ A fim de escrever um código que seja claro, entendido por todos envolvidos, a l
 <details>
 
 ## Tipos e Variáveis
+
 <summary>Tipos e Variáveis</summary>
 
 </details>
