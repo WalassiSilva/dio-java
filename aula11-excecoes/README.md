@@ -7,7 +7,7 @@ Try: Você coloca o código que pode gerar uma exceção dentro do bloco try. Is
 
 Catch: Se uma exceção ocorrer dentro do bloco try, o controle é transferido para o bloco catch correspondente. No bloco catch, você pode especificar o tipo de exceção que deseja lidar e o que fazer quando essa exceção ocorrer. Você pode ter vários blocos catch para lidar com diferentes tipos de exceções.
 
-```
+```java
 try {
     // Código que pode gerar uma exceção
     int resultado = dividir(10, 0);

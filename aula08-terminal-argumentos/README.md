@@ -13,11 +13,11 @@ Essa pasta contem nossas classes `App.class`. É esse arquivo que iremos executa
 - coloque o caminho da pasta bin
 - execute `java <nome da classe>`
 
-```
+```java
 cd C:\DEV\cursos\java\dio-java-basico\aula8-terminal-argumentos\bin
 ```
 
-```
+```java
 java MinhaClasse
 ```
 

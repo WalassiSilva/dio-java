@@ -48,7 +48,7 @@ Criterio de definição de métodos
 
 ### Veja um exemplo de classe com seus métodos
 
-```
+```java
 public class MyClass {
 
   public double somar(int n1, int n2) {
@@ -57,7 +57,7 @@ public class MyClass {
   }
 ```
 
-```
+```java
   public void imprimir (String text){
     // logica - finalidade do método
     // não tem retorno
@@ -66,31 +66,31 @@ public class MyClass {
 
 - Tem a exceção, pois não se pode dividir um valor por 0.
 
-```
+```java
 public double dividir(int dividendo, int divisor) throws Exception{}
 ```
 
  - Métodos privados não serão visto por outras classes
-```
+```java
 private void metodoPrivado(){}
 ```
 - Podemos passar parâmetro separadamente para um método
-```
+```java
 public void gravarCliente(String nome, String cpf, Integer idade){}
 ```
 
  - Podemos fazer de forma mais inteligente criando um objeto e passando como parãmetro
-```
+```java
 public void gravarCliente(Cliente cliente){}
 ```
 
 - Tambem podemos fazer um método gererico gravar(){} e o parametro diz se é um cliente ou outra coisa
-```
+```java
 public void gravar(Cliente cliente){}
 
 public void gravar(Fornecedor fornecedor){}
 ```
-}
+
 
 ```
 

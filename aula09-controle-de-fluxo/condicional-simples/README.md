@@ -5,7 +5,7 @@
 Ocorre quando uma validação de execução de fluxo for verdadeira.
 Ex: Se algo for verdade, faça isso.
 
-```
+```java
 public class CaixaEletronico {
 
     public static void main (String [] args){
@@ -34,7 +34,7 @@ Nem sempre as condições serão apenas "faça isso, ou faça nada".
 Teremos que avaliar multiplos cenários, devolver multiplas resposta
 Nesse caso temos uma estrutura chamada `if/else`
 
-```
+```java
 public class CondicaoComposta {
     public static void main(String [] args) {
         int nota = 8;
@@ -56,7 +56,7 @@ public class CondicaoComposta {
 
 Quando é necessário mais do que checar `if/else`.
 Quanto tivermos vários `ifs`
-
+```java
 public class CondicaoEncadeada {
 
     public static void main(String[] args) {
@@ -73,6 +73,7 @@ public class CondicaoEncadeada {
     }
 
 }
+```
 
 </details>
 
@@ -81,7 +82,7 @@ public class CondicaoEncadeada {
 
 É um forma mais resumida de fazer  `if/else`.
 Também é aplicado de forma emcadeada
-
+```java
 public class CondicaoEncadeada {
 
     public static void main(String[] args) {
@@ -93,6 +94,7 @@ public class CondicaoEncadeada {
     }
 
 }
+```
 
 </details>
 
@@ -105,7 +107,7 @@ public class CondicaoEncadeada {
 - Precisa colocar o comando `break` após cada `case` para seguir o fluxo do programa.
 - Usamos um `case default` para quando nenhuma das condições forem chamadas
 
-```
+```java
 public class Switch {
     public static void main(String[] args) {
         char tamanho = 'M';

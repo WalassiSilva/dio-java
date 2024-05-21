@@ -29,7 +29,7 @@ Pelo debugging, você tem uma imagem muito mais completa de um quadro de pilha d
  ### Stack Trace
   É a matriz onde encontramos a pilha de execução da exceção. Em outras palavras, o rastreamento da pilha busca (rastreia) para a próxima linh on de a exceção pode surgir.
 
-  ```
+  ```java
   public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Iniciou do programa no método main.");

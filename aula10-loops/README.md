@@ -15,7 +15,7 @@ A estrutura dele é:
 - Por fim, colocamos a regra de incremento do contador, para que saia do loop eventalmente. Essa regra pode ser de incremente ou decremento.
 
 exemplo: 
-```
+```java
 public class ForLoop {
     public static void main(String[] args) throws Exception {
 
@@ -32,7 +32,7 @@ public class ForLoop {
 Onde a expressão booleana esta atrelada a um array.
 exemplo:
 
-```
+```java
 String alunos[] = { "Ana", "Bruno", "Catia", "Danilo", "Estela", "Fabiana", "Gustavo" };
 
 for (int i = 0; i < alunos.length; i++) {
@@ -46,7 +46,7 @@ for (int i = 0; i < alunos.length; i++) {
  
  É uma forma reduzida de fazer o loop padrão
 Exemplo: 
-```
+```java
 String alunos[] = { "Ana", "Bruno", "Catia", "Danilo", "Estela", "Fabiana", "Gustavo" };
 
 for( String aluno : alunos){
@@ -62,7 +62,7 @@ for( String aluno : alunos){
 Break vai parar a execução de um bloco de comando, parar o loop.
 Continue vai interromper somente a iteração atual do loop.
 
-```
+```java
 public class BreakContinue {
     public static void main(String[] args) {
 
@@ -90,7 +90,7 @@ O while determina que, enquanto uma condição for válida, o bloco de código s
 
 o While testa a condição antes de executar o código, ou seja, se a condição for falsa de primeira, o bloco nem será executado.
 
-```
+```java
 import java.util.concurrent.ThreadLocalRandom;
 
 public class While {

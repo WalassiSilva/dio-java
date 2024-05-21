@@ -109,7 +109,7 @@ Ex:
 - `edu.walassi.tema.logica`
 - `edu.walassi.primeirasemana`
 
-### Criar organização no VSCode
+### Criar organização/package no VSCode
 
 No VSCode é iremos criar uma pasta com o nome completo separado por `.`, iremos criar pastas para cada nível
 

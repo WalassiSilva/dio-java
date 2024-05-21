@@ -13,7 +13,7 @@ São simbolos especiais que tem um significado próprio para a liguagem e estão
 Represendado pelo símbolo de igualdade `=`.
 exemplos de atribuições juntamente com alguns tipos não primitivos:
 
-```
+```java
 String nome = "José";
 int idade = 25;
 double peso = 59.70;
@@ -45,7 +45,7 @@ Então se programa detecta que tem uma operação com numeros e string, o result
 
 Alguns casos que podem acontecer:
 
-```
+```java
 String concat = "?";
 
 concat = 1+1+1+"1"; // resultado 31. Irá somar atá encontrar a string e fará a concatenação
@@ -120,7 +120,7 @@ Estes avalias a relação entre duas variáveis ou expressões:
 - ` a <= b` ->  A menor ou igual que B;
 
 Para comparar string e objects o mais indicado é usar:
-```
+```java
 String nome1 = "Ana";
 String nome2 = "Joy";
 

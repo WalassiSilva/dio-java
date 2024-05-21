@@ -32,7 +32,7 @@ atenção: numeros iniciados com 0, o proprio 0 não conta, nesse caso, se não 
 ![erro de tipagem](image.png)
 - Para fazer essa converção, usamos o casting
  ex: 
- ```
+ ```java
  short numeroCurto = 1;
  int numeroMaior = numeroCurto;
  short numeroCurto2 = (short) numeroMaior;
