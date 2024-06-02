@@ -3,7 +3,7 @@ package exercices;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.BinaryOperator;
-import java.util.function.Predicate;
+// import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 //  MOSTRE A LISTA EM ORDEM NUMERICA

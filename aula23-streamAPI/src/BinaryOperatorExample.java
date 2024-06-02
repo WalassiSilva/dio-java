@@ -36,7 +36,7 @@ public class BinaryOperatorExample {
     /*------------------------------- */
 
     // Binary com reference e lambda
-    BinaryOperator<Integer> somar2 = Integer::sum;
+    // BinaryOperator<Integer> somar2 = Integer::sum;
     int resultado2 = numeros.stream()
         .reduce(0, Integer::sum);
         System.out.println("Refatorado " + resultado2);
