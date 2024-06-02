@@ -2,9 +2,13 @@ package map;
 
 import java.time.LocalDate;
 import java.time.Month;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.TreeMap;
+import java.util.TreeSet;
 
 public class Eventos {
   private Map<LocalDate, Evento> eventos;
@@ -42,15 +46,21 @@ public class Eventos {
   }
 
   public static void main(String[] args) {
-    Eventos eventos = new Eventos();
+    // Eventos eventos = new Eventos();
 
-    eventos.addEvento(LocalDate.of(2022, 7, 15),"evento2","atracao2");
-    eventos.addEvento(LocalDate.of(2024, Month.JUNE, 01),"evento4","fechamento");
-    eventos.addEvento(LocalDate.of(2024, 5, 30),"evento3","Haikyuu");
-    eventos.addEvento(LocalDate.of(2022, 7, 15),"evento1","atracao1");
+    // eventos.addEvento(LocalDate.of(2022, 7, 15),"evento2","atracao2");
+    // eventos.addEvento(LocalDate.of(2024, Month.JUNE, 01),"evento4","fechamento");
+    // eventos.addEvento(LocalDate.of(2024, 5, 30),"evento3","Haikyuu");
+    // eventos.addEvento(LocalDate.of(2022, 7, 15),"evento1","atracao1");
 
-    // eventos.exibirEventos();
+    // // eventos.exibirEventos();
 
-    eventos.obterProximoEvento();
+    // eventos.obterProximoEvento();
+    // Set<String> coresDaBandeiraDoBrasil = new TreeSet<>(Arrays.asList("verde", "amarelo", "azul", "branco"));
+    // System.out.println(coresDaBandeiraDoBrasil);
+
+  List<Character> consoantesMeuNome = Arrays.asList('c', 'm', 'l', 'c', 'v', 'l', 'c', 'n', 't');
+    System.out.println(consoantesMeuNome);
+
   }
 }
