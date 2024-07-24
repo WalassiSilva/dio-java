@@ -1,0 +1,14 @@
+name: myapp
+
+services: 
+  db: 
+    image: mongo
+    container_name: db
+    restart: always
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=dio
+      - MONGO_INITDB_ROOT_PASSWORD=dio
+    ports:
+      - "27017:27017"
+    volumes:
+    - C:\DEV\cursos\java\dio-java\nosql\mondodb-docker:/data/db
