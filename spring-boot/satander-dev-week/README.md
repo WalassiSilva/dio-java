@@ -5,33 +5,37 @@ Java RESTful api criada para o bootcamp Santander
 ```mermaid
 classDiagram
     class User {
-        +String name
+        -String name
+        -Account account
+        -Feature[] feature
+        -Card card
+        -News[] news
     }
 
     class Account {
-        +String number
-        +String agency
-        +Number balance
-        +Number limit
+        -String number
+        -String agency
+        -Number balance
+        -Number limit
     }
 
     class Feature {
-        +String icon
-        +String description
+        -String icon
+        -String description
     }
 
     class Card {
-        +String number
-        +Number limit
+        -String number
+        -Number limit
     }
 
     class News {
-        +String icon
-        +String description
+        -String icon
+        -String description
     }
 
-    User "1" *-- "1" Account : has
-    User "1" *-- "0..*" Feature : has
-    User "1" *-- "1" Card : has
-    User "1" *-- "0..*" News : has
+    User *-- Account
+    User *-- Feature
+    User *-- Card
+    User *-- News
 ```
